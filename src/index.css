@@ -1,0 +1,106 @@
+/* write your css here */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.Wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  margin: 20px;
+  font-size: 2.7rem;
+
+  text-align: center;
+  border: 6px dashed blue;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2.4vh;
+}
+
+.cards {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+    gap: 5px;
+}
+.card {
+  width: 350px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+
+}
+.image {
+  width: 300px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+.trip-details {
+  margin: 12px 6px;
+}
+
+.trip-prize {
+  color: #1faa59;
+  font-size: 1rem;
+}
+
+.trip-name {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.read-more {
+  color: #12b0e8;
+  cursor: pointer;
+}
+.btn-remove {
+  margin-top: 14px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 11px;
+  background-color: #b4161b21;
+  font-weight: bold;
+}
+.btn-remove:hover {
+  background-color: rgb(230, 0, 0);
+  color: white;
+  transition:  all 0.2s;
+}
+
+.refersh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn-refersh{
+    margin-top: 19px;
+    border: 1 px solid rgb(237, 77, 77);
+    background-color: rgb(243, 29, 29);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
